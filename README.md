@@ -11,6 +11,7 @@ This project involves building a machine learning model to detect credit card fr
 - [Flask API Setup](#flask-api-setup)
 - [Making Predictions](#making-predictions)
 - [Accessing the Model](#accessing-the-model)
+- [Hosted Application](#hosted-application)
 
 ## Project Overview
 
@@ -116,3 +117,15 @@ This project focuses on detecting fraudulent credit card transactions. The datas
 
 2. **Using the API**:
     - Use the provided endpoints to download the test data and make predictions.
+
+## Hosted Application
+
+The Flask application has been hosted on an AWS EC2 machine. You can access the application using the following URL:
+
+[http://ec2-43-205-229-87.ap-south-1.compute.amazonaws.com/](http://ec2-43-205-229-87.ap-south-1.compute.amazonaws.com/)
+
+### Accessing the Predict Endpoint
+
+To access the `/predict` endpoint, you can use the provided `request.py` script or any HTTP client like Postman. Below is an example of the output when making a prediction request:
+
+![Prediction Endpoint Output](output_screenshot.png)
